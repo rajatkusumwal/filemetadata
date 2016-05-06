@@ -2,7 +2,7 @@
 
 ## Overview
 
-Server recieves a file object and return meta data about the file using a middleware.
+Server recieves a file object by post method with is encrypted in mutipart/form-data and return meta data about the file using a middleware called mutler which helps manage file data on the server.
 
 ## Versions
 
